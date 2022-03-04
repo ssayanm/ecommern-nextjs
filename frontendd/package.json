@@ -1,0 +1,37 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.24.0",
+    "aos": "^2.3.4",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "install": "^0.13.0",
+    "micro": "^9.3.4",
+    "next": "12.1.0",
+    "nextjs-redirect": "^5.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.0",
+    "react-responsive-carousel": "^3.2.2",
+    "stripe": "^8.206.0",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "next-sitemap": "^1.6.203",
+    "postcss": "^8.4.5",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0",
+    "tailwindcss": "^3.0.7"
+  }
+}
