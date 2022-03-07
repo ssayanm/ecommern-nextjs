@@ -12,14 +12,14 @@ import Meta from "../../components/Meta";
 //   }
 // };
 
-const index = ({ services }) => {
+const index = ({ services, products }) => {
   return (
     <>
       <Meta
         title="Services"
         description="Connecticut Certified Relationship Coach Pleasant Smith"
       />
-      <ServiceList services={services} />
+      <ServiceList services={services} products={products} />
     </>
   );
 };

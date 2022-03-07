@@ -18,11 +18,9 @@ const MyApp = ({ Component, pageProps }) => {
     });
   }, []);
   return (
-    <Provider>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </Provider>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 };
 
