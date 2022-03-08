@@ -5,7 +5,7 @@ import "../styles/globals.css";
 import "../styles/slider.css";
 import "aos/dist/aos.css";
 
-import Provider from "../context";
+import ProductProvider from "../context";
 
 const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
@@ -18,9 +18,11 @@ const MyApp = ({ Component, pageProps }) => {
     });
   }, []);
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ProductProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </ProductProvider>
   );
 };
 
